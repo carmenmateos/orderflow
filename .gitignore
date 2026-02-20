@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Environment variables (keep .env.example, ignore actual .env)
+.env
+.env.local
+.env*.local
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native builds
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+.kotlin/
+/app/ios
+/app/android
+
+# Metro
+.metro-health-check*
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+web/dist/
+
+# IDE
+.idea/
+.vscode/
